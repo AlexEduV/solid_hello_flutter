@@ -1,6 +1,6 @@
-import 'random.dart';
-
 import 'package:flutter/material.dart';
+
+import 'package:hello_there_flutter/random.dart';
 
 void main() {
   runApp(const MyApp());
@@ -25,6 +25,7 @@ class MyApp extends StatelessWidget {
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title});
 
+  ///default constructor for MyHomePage includes a 'title' parameter
   final String title;
 
   @override
@@ -60,7 +61,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 children: <Widget>[
                   Text(
                     'Hello there',
-                    style: Theme.of(context).textTheme.headline3
+                    style: Theme.of(context).textTheme.headline3,
                   ),
                   // const SizedBox(
                   //   height: 60,
@@ -69,7 +70,8 @@ class _MyHomePageState extends State<MyHomePage> {
                   //   'Tap a screen to pick a new color!',
                   // ),
                   // Text(
-                  //   'RGB(${_backgroundColor.red}, ${_backgroundColor.green}, ${_backgroundColor.blue})',
+                  //   'RGB(${_backgroundColor.red}, ${_backgroundColor.green},'
+                  //       ' ${_backgroundColor.blue})',
                   //   style: Theme.of(context).textTheme.headline5,
                   // ),
                 ],
