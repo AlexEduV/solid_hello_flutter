@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/alex/AndroidStudioProjects/hello_there_flutter/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "outputFile": "/Users/alex/Development/Repositories/solid_hello_there_flutter/solid_hello_flutter/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/alex/AndroidStudioProjects/hello_there_flutter/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/Users/alex/Development/Repositories/solid_hello_there_flutter/solid_hello_flutter/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

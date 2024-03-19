@@ -1,4 +1,4 @@
-#Tue Mar 19 15:04:35 EET 2024
-base.0=/Users/alex/AndroidStudioProjects/hello_there_flutter/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+#Tue Mar 19 16:26:04 EET 2024
+base.0=/Users/alex/Development/Repositories/solid_hello_there_flutter/solid_hello_flutter/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
