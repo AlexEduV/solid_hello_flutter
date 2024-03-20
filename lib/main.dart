@@ -25,7 +25,6 @@ class MyApp extends StatelessWidget {
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title});
 
-  ///default constructor for MyHomePage includes a 'title' parameter
   final String title;
 
   @override
@@ -53,32 +52,17 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: GestureDetector(
         onTap: _updateBackgroundColor,
-        child: Scaffold(
-          backgroundColor: _backgroundColor,
-            body: Center(
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: <Widget>[
-                  Text(
-                    'Hello there',
-                    style: Theme.of(context).textTheme.headline3,
-                  ),
-                  // const SizedBox(
-                  //   height: 60,
-                  // ),
-                  // const Text(
-                  //   'Tap a screen to pick a new color!',
-                  // ),
-                  // Text(
-                  //   'RGB(${_backgroundColor.red}, ${_backgroundColor.green},'
-                  //       ' ${_backgroundColor.blue})',
-                  //   style: Theme.of(context).textTheme.headline5,
-                  // ),
-                ],
+        child: Container(
+          height: double.infinity,
+          color:  _backgroundColor,
+          child: Center(
+                child: Text(
+                  'Hello there',
+                  style: Theme.of(context).textTheme.headline3,
+                ),
               ),
-            ),
-          ),
         ),
+      ),
     );
   }
 }
