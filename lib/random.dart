@@ -10,7 +10,7 @@ Color getRandomColor() {
   final int blue = random.nextInt(255);
   final int green = random.nextInt(255);
 
-  //alpha equals 255, which means the color's opacity equals 1.0
+  //alpha equals 255, which means the color is opaque
   const int alpha = 255;
 
   //a random color
