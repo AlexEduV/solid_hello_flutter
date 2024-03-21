@@ -54,7 +54,7 @@ class _MyHomePageState extends State<MyHomePage> {
         onTap: _updateBackgroundColor,
         child: Container(
           height: double.infinity,
-          color:  _backgroundColor,
+          color: _backgroundColor,
           child: Center(
                 child: Text(
                   'Hello there',
