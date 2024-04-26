@@ -1,0 +1,1 @@
+ /Users/alex/Development/Repositories/solid_hello_there_flutter/solid_hello_flutter/.dart_tool/flutter_build/63f159833e9e2240db0d00eda1b0a242/native_assets.yaml: 

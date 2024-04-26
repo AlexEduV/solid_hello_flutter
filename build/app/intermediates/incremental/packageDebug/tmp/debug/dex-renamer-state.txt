@@ -1,4 +1,4 @@
-#Wed Mar 20 17:09:46 EET 2024
+#Fri Apr 26 11:13:26 EEST 2024
 base.0=/Users/alex/Development/Repositories/solid_hello_there_flutter/solid_hello_flutter/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

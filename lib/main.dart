@@ -36,14 +36,6 @@ class _MyHomePageState extends State<MyHomePage> {
   //initial background color
   Color _backgroundColor = Colors.white;
 
-  void _updateBackgroundColor() {
-
-    //update a background color
-    setState(() {
-      _backgroundColor = getRandomColor();
-    });
-  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -64,5 +56,13 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       ),
     );
+  }
+
+  void _updateBackgroundColor() {
+
+    //update a background color
+    setState(() {
+      _backgroundColor = getRandomColor();
+    });
   }
 }
