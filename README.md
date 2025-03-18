@@ -1,16 +1,18 @@
-# hello_there_flutter
+# solid_software_flutter_test_task
 
-A Test Hello There Project.
+A Flutter App, which changes background color, when the user taps the screen.
+This is a test task for Flutter Developer position in Solid Software.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+The project does not need any additional setup.
 
-A few resources to get you started if this is your first Flutter project:
+Just run `pub get` to get dependencies for the project. And you're set!
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Stack
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Dart, Flutter
+
+## Platforms
+
+The project was tested on Mobile and the Web.
